@@ -6,10 +6,31 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0107BBDB2608DB56004949E8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0107BBDC2608DB56004949E8 /* avrdude.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = avrdude.conf; sourceTree = "<group>"; };
+		0107BBDD2608DB56004949E8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0107BBDE2608E1EA004949E8 /* board.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = board.c; sourceTree = "<group>"; };
+		0107BBDF2608E1EA004949E8 /* board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
+		0107BBE02608E20A004949E8 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		0107BBE12608E20A004949E8 /* build.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = build.h; sourceTree = "<group>"; };
+		010F36E826126DC400C1A421 /* uart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uart.h; sourceTree = "<group>"; };
+		010F36E926126DC400C1A421 /* uart.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uart.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0107BBD12608DABD004949E8 = {
 			isa = PBXGroup;
 			children = (
+				010F36E826126DC400C1A421 /* uart.h */,
+				010F36E926126DC400C1A421 /* uart.c */,
+				0107BBE12608E20A004949E8 /* build.h */,
+				0107BBE02608E20A004949E8 /* version.h */,
+				0107BBDE2608E1EA004949E8 /* board.c */,
+				0107BBDF2608E1EA004949E8 /* board.h */,
+				0107BBDC2608DB56004949E8 /* avrdude.conf */,
+				0107BBDD2608DB56004949E8 /* main.c */,
+				0107BBDB2608DB56004949E8 /* Makefile */,
 			);
 			sourceTree = "<group>";
 		};
